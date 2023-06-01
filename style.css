@@ -22,9 +22,15 @@
 ul {
     margin: 0;
     padding: 0;
-    list-style-type:none;
+    list-style-type: none;
     display: flex;
     gap: 13px;
+}
+
+a {
+    text-decoration: none;
+    font-family: default;
+    color: #e5e7eb;
 }
 
 .right-links {
