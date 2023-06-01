@@ -107,3 +107,26 @@ button {
     text-align: center;
     padding: 10px 0;
 }
+
+.testimonial {
+    display: flex;
+    background-color: #e5e7eb;
+    height: 300px;
+    align-items: center;
+}
+
+.testimonial-content {
+    padding: 0 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    color: #1F2937;
+    font-size: 36px;
+}
+
+.source {
+    text-align: right;
+    font-weight: 800;
+}
