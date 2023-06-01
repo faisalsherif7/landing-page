@@ -64,6 +64,7 @@ a {
 
 .subtext {
     color: #e5e7eb;
+    font-size: 18px;
 }
 
 .image-placeholder {
@@ -76,7 +77,7 @@ img {
 }
 
 .main-text button {
-    padding: 5px 25px;
+    padding: 5px 30px;
     background-color: #3882f6;
     border: 0;
     border-radius: 8px;
@@ -122,7 +123,7 @@ img {
 }
 
 .testimonial-content {
-    padding: 0 150px;
+    padding: 0 270px;
     display: flex;
     flex-direction: column;
 }
@@ -135,6 +136,7 @@ img {
 .source {
     text-align: right;
     font-weight: 800;
+    font-size: x-large;
 }
 
 .action-container {
