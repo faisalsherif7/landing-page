@@ -173,3 +173,14 @@ img {
     font-weight: 100;
     color: #e5e7eb;
 }
+
+.footer {
+    background-color: #1F2937;
+    padding: 0 150px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb;
+    font-size: larger;
+}
