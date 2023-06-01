@@ -33,9 +33,6 @@ ul {
     color: #e5e7eb;
 }
 
-.body {
-}
-
 .main-text {
     padding: 0 150px;
     background-color: #1F2937;
@@ -44,6 +41,7 @@ ul {
     flex: 1;
     align-items: center;
     height: 450px;
+    gap: 10px;
 }
 
 .welcome-text {
@@ -67,14 +65,45 @@ ul {
 }
 
 img {
-    max-width: 500px;
+    max-width: 100%;
+    border-radius: 20px;
 }
 
 button {
-    padding: 5px 20px;
+    padding: 5px 25px;
     background-color: #3882f6;
     border: 0;
     border-radius: 8px;
     max-width: max-content;
     color: #e5e7eb;
+    font-size: x-large;
+}
+
+.information {
+    padding: 25px 150px;
+}
+
+.info-header {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    padding: 25px 0;
+}
+
+.info {
+    display: flex;
+    padding: 10px 0;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.info-piece {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-piece p {
+    text-align: center;
+    padding: 10px 0;
 }
